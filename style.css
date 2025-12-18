@@ -12,7 +12,7 @@ body {
 
 .faq-box {
     width: 35rem;
-    height: 45rem;
+    height: fit-content;
     background-color: orange;
     border: 2.5px solid black;
 
@@ -39,6 +39,10 @@ header {
 
 .inner-container {
     padding: 0.6rem;
+}
+
+.faq div h2 {
+    border-bottom: 1px solid black;
 }
 
 .faq div p {
