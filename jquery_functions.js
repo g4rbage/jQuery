@@ -1,8 +1,11 @@
 $(document).ready(function () {
     // jQuery methods go here...
 
-    $("h2").click(function() {
-        $(this).toggle();
+
+    // Toggle FAQ answer depending on which question is clicked on.
+
+    $("div").click(function() {
+        $(this).children("p").toggle();
     });
 
 });

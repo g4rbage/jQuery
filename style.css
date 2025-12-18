@@ -40,3 +40,7 @@ header {
 .inner-container {
     padding: 0.6rem;
 }
+
+.faq div p {
+    display: none;
+}
