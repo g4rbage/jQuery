@@ -52,8 +52,3 @@ header {
 .faq h2 {
     cursor: pointer;
 }
-
-.faq h2::before {
-    content: "\02C3 ";
-
-}
